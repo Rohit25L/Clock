@@ -1,3 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .container{
-    
+    background-image: url("/Clock/daniel-leone-v7daTKlZzaw-unsplash.jpg") ;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockRound{
+    height: 50vmin;
+    width: 50vmin;
+    border: 20px solid white;
+    border-radius: 50%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.pos{
+    height: 0vmin;
+    width: 25vmin;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 50%;
+    border: 3px solid white;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.7s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hourLine{
+    width: 19vmin;
+    margin-left: 5.5vmin;
+
+}
+.minLine{
+    width: 22vmin;
+    border: 3px solid rgb(31, 255, 11);
+    margin-left: 2.5vmin;
+}
+.secendsLine{
+    width: 24vmin;
+    margin-left: 0.4vmin;
+    border: 3px solid black;
 }
