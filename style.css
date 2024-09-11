@@ -18,18 +18,13 @@
     width: 50vmin;
     border: 20px solid white;
     border-radius: 50%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 .pos{
     height: 0vmin;
     width: 25vmin;
-    /* background-color: aqua; */
     position: absolute;
     top: 50%;
     border: 3px solid white;
-    /* transform: rotate(90deg); */
     transform-origin: 100%;
     transition: all 0.07s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
