@@ -26,8 +26,6 @@
     top: 50%;
     border: 3px solid white;
     transform-origin: 90%;
-    transition: all 0.07s;
-    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     border-radius: 10px;
 }
 .hourLine{
@@ -53,4 +51,8 @@
     top: 49.3%;
     border-radius: 50%;
     background-color: white;
+}
+.transition1{
+    transition: all 0.07s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
