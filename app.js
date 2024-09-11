@@ -7,6 +7,12 @@ function hour1(){
     const seconds = now.getSeconds();
     const secondDegree =((seconds/60)*360)+90;
      second.style.transform=`rotate(${secondDegree}deg)`
+     console.log(secondDegree)
+     if (secondDegree != 444){
+        // second.style.transition = 'all 0.07s'
+     }else{
+        //  second.style.transition = 'none'
+     }
 
 
     const mins =now.getMinutes()
@@ -17,6 +23,7 @@ function hour1(){
     const hourdegree = ((hourr/12)*360)+90;
     hour.style.transform=`rotate(${hourdegree}deg)`
 }
+
 setInterval(() => {
     hour1();
 }, 1000);
